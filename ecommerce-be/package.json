@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "client": "npm start --prefix ../ecommerce-fe"
+    "build": "npm i"
 
   },
   "author": "",

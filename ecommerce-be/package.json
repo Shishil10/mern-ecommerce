@@ -7,7 +7,6 @@
   "scripts": {
     "start": "node index.js"
     "client": "npm start --prefix ../ecommerce-fe"
-    "dev": "npm run start & npm run ecommerce-fe"
 
   },
   "author": "",

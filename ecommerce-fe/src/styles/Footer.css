@@ -1,0 +1,9 @@
+/* Styling for footer links and headings */
+.f-row a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .f-row h3 {
+    color: #ffffff;
+  }

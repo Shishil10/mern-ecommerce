@@ -1,0 +1,90 @@
+
+
+/* Styling for the hero section image */
+.hero-img {
+    background-image: url('../img/hero4.png');
+    height: 600px;
+    background-size: cover;
+    background-position: top 20% right 10%;
+  }
+  
+  /* Styling for hero section headings */
+  .hero h2 {
+    /* padding-bottom: 15px; */
+    font-family: 'Lucida Sans', 'Lucida Grande', Geneva, Verdana, sans-serif;
+    color: #ff0000;
+  }
+  
+  /* Styling for hero section main heading */
+  .hero h1 {
+    /* padding-bottom: 15px; */
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Grande', Geneva, Verdana, sans-serif;
+  }
+  
+  /* Styling for hero section button */
+  .hero button {
+    background-color: #ab792d;
+    border: 1px solid black !important;
+    color: #ffffff;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 15px;
+    transition: .5s ease;
+  }
+  
+  /* Hero button hover effect */
+  .hero button:hover {
+    background-color: #0f2649;
+    border: 1px solid #ffffff !important;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  
+  /* Common styling for product cards */
+  .product-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  /* Product card hover effect */
+  .product-card:hover {
+  
+    box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.8);
+  
+  
+  }
+  
+  /* Styling for product price */
+  .price {
+    color: rgb(30, 168, 69);
+    font-size: 22px;
+  }
+  
+  /* Styling for product card buttons */
+  .product-card a {
+    border: 1px solid black;
+    padding: 10px;
+    color: rgb(255, 255, 255) !important;
+    background-color: #ab792d;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s ease-in-out;
+  }
+  
+  /* Product card button hover effect */
+  .product-card a:hover {
+    color: #ffffff !important;
+    background-color: #0f2649;
+    box-shadow: 5px 5px 34px rgba(0, 0, 0, 0.8);
+  }
